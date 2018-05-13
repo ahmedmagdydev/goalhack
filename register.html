@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>goalHack</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+    
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+    <div class="register">
+      <div class="container">
+        <div class="header">
+          <div class="d-flex flex-row align-items-center">
+            <div>
+              <a href="#" class="logo"><img src="images/logo.png" alt="" width="87" height="100"></a>
+            </div>
+            <div class="ml-auto">
+              <div class="float-right">
+                <a href="#" class="home">Back to home</a><a href="#" class="btn btn-outline-secondary rounded d-none">LOGIN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="register-wrapper rounded">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="register-form">
+                <h1>Sign UP <span class="h6 text-red">Please fill the below fields</span></h1>
+                <div class="form-horizontal">
+                  <div class="row">
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="text" class="form-control rounded" placeholder="Name ">
+                    </div></div>
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="text" class="form-control rounded" placeholder="Nick name">
+                    </div></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="mail" class="form-control rounded" placeholder="Email">
+                    </div></div>
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="text" class="form-control rounded" placeholder="Mobile">
+                    </div></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="password" class="form-control rounded" placeholder="Password">
+                    </div></div>
+                    <div class="col-sm-6"><div class="form-group">
+                      <input type="password" class="form-control rounded" placeholder="Confirm password">
+                    </div></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-2"><div class="form-group">
+                      <select name="day" id="day" class="form-control rounded">
+                        <option value="Day">Day</option>
+                        <option value="1">1</option>
+                      </select>
+                      
+                    </div></div>
+                    <div class="col-sm-2"><div class="form-group">
+                      <select name="month" id="month" class="form-control rounded">
+                        <option value="0">Month</option>
+                        <option value="january">January</option>
+                      </select>
+                      
+                    </div></div>
+                    <div class="col-sm-2"><div class="form-group">
+                      <select name="year" id="year" class="form-control rounded">
+                        <option value="0">Year</option>
+                        <option value="1987">1987</option>
+                      </select>
+                      
+                    </div></div>
+                    
+                      
+                    <div class="col-sm-3">
+                      <div class="form-group">
+                        <select class="form-control rounded">
+                          <option value="0">City</option>
+                          <option value="1">cairo</option>
+                        </select>
+                      </div>
+                    </div>
+                     <div class="col-sm-3">
+                      <div class="form-group">
+                        <select class="form-control rounded">
+                          <option value="0">Area</option>
+                          <option value="1">cairo</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group row d-flex justify-content-around occupation">
+                    <label class="col-sm-2 col-form-label">Occupation</label>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="school">
+                        <label class="custom-control-label" for="school">High school student</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="College">
+                        <label class="custom-control-label" for="College">College student</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="Emplyed">
+                        <label class="custom-control-label" for="Emplyed">Emplyed</label>
+                      </div>
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="notEmplyed">
+                        <label class="custom-control-label" for="notEmplyed">Not Emplyed</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8"><div class="form-group">
+                      <input type="text" class="form-control rounded" placeholder="Address">
+                    </div></div>
+                    <div class="col-sm-4">
+                      <div class="form-group">
+                        <div class="switch-wrapper">
+                          <div class="switch">
+                            <input id="dn" type="checkbox"><label class="toggle" for="dn"><span class="toggle--handler"></span></label>
+                          </div>
+                        <label for="dn" class="isPalyer">Is a player</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="terms">
+                        <label class="custom-control-label" for="terms">I have read and Agree on <a href="#" class="terms" data-toggle="modal" data-target="#exampleModal">Terms and Conditions</a></label>
+                      </div>
+
+                  </div>
+                  <div class="form-group text-center pt-4">
+                    <input class="btn btn-primary rounded text-uppercase" type="button" value="join now">
+                    <input class="btn btn-secondary rounded text-uppercase" type="reset" value="reset">
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="col-md-4 d-none d-md-block">
+              <div class="register-info">
+                <h2 class="text-center text-light">register to collect reward <span class="text-red">points</span></h2>
+                <p class="text-light text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+
+                <ul class="register-slider">
+                  <li><img src="images/register-slide.jpg" alt=""></li>
+                
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="terms-and-conditions" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1>Terms &amp; conditions <span class="h6 text-light">Last modified: October 25, 2017 (view archived versions)
+            </span>
+            
+            </h1>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Your registering and using of the website will be considered as
+          agreement on terms and conditions as well as on the privacy policy of the
+          company. Each usage of the website is confirmation on your acceptance of
+          the effective terms and conditions. If you do not have an attempt to apply
+          the terms and conditions, you may stop using the website. You shall not
+          register or use the website unless the acceptance of the terms and
+          conditions.site unless the acceptance of the terms and
+          conditions.</p>
+<p>Techno-sport has the right to change the above terms and conditions at
+  its own discretion. The amended terms and conditions will be effective
+  upon their publication. If you continue using the website, you will agree
+  on the new terms and conditions in addition to bear responsibility of
+  reviewing any regarded changes. In the case of refusing the amended
+  terms and conditions, then you do not have any choice but stopping use of
+  the website.</p>
+<p>It is possible to change the terms and conditions considering the matter
+  of participating or all things relating to the competition and the general
+  terms and conditions, at any time. You should review our website
+  regularly for following any accredited changes from the download date on
+  the website.</p>
+<p>According to your entering the competition, you shall comply with the
+  general or special terms and conditions.</p>
+<h4>Company information</h4>
+<p>Techno-sport owns the terms and conditions and bears the responsibility
+  of applying them. It is an Egyptian Joint-stock company which specialized
+  in sports and organizing the athletic championships (real or electronic),
+  It is located in: 256, 9 Street, Maadi.</p>
+<p>Mail: <a href="mailto:wael@goalhack.net">wael@goalhack.net</a></p>
+
+
+<h4>Trademarks</h4><p>
+  All trademarks are property of known owners.
+  The date of opening and closing the period of participations and</p>
+  <h4>competitions</h4>
+<p>Registration for the competitions will be opened once it has been
+  announced on television, radio or our website.</p>
+<p>After the closing date, any entering on the competitions shall be invalid.</p>
+<h4>Description of the competition</h4>
+<p>It is an interacting sports competition, aiming to achieve the dreams of
+  sportive youth in addition to care and market them. It has been
+  announced on television, radio or our website.</p>
+<h4>The way of registration, participating mechanism and the period after
+  participation</h4>
+<p>Registering the participants’ information on the company mail, each
+  participant will have his/ her own code,</p>
+<p>The company will call the participant in order to sign contracts agreeing
+  to the acceptance of terms and conditions and to confirm the participant
+  eligibility.</p>
+<p>The company shall organize the competitions to choose the best teams.</p>
+<p>The company shall provide the sports teams with the necessary
+  equipments and advices. After signing the contracts with the winning
+  teams, the company will has the right to sponsor and marker them, locally
+  and internationally.</p>
+<p>The company shall not bear responsibility of the losing, late and
+  undelivered participations.</p>
+<h4>Participant responsibility</h4>
+<p>a) Participating in all matches unless the company does not ask for the
+  contrary and the health status is not helping, according to medical reports
+  approved by the company.</p>
+
+<p>b) Exerting the ultimate efforts in participation in accordance with the
+  rules of football.</p>
+<p>c) Not playing for the third party, under any circumstances unless the
+  company does not approve in written.</p>
+<p>d) Complying with all regulations, decisions, terms, conditions and the
+  contracting provisions issued by the company.</p>
+<p>e) Protecting health status of the participants, avoiding putting them on
+  dander, not breaching any of the contract provisions and not practicing
+  any other sport activity unless obtaining the written approval from the
+  company.</p>
+<p>f) The participant shall be a good role model whether in practicing the
+  matches and trainings or otherwise.</p>
+<p>g) Not going on negotiations with other clubs along with the contract
+  period, inside or outside the contrary unless the company approved in
+  written. If not, any contract with other companies shall be null and void
+  and the company will have the right to take the legal procedures
+  considering that matter.</p>
+<p>4- The company may use the photos of its player (individuals, teams and
+  groups) in advertisements, as it deemed appropriate.</p>
+<h4>The eligibility rules of our competition</h4>
+<p>1- When asking the participant (who is under the age of 18) for signing any
+  waiver or document before taking place in any competition, his parent or
+  legal guardian shall sign on his behalf.</p>
+<p>2- Minimize and maximize age of the participant shall be determined in
+  the terms and conditions of any competitions.</p>
+<p>3- The specific competitions considered special eligibility requirements
+  such as: providing passport, resident visa, effective driving license, the
+  fitness test and otherwise. The eligibility requirements shall be mentioned
+  in the terms and conditions of any competition.</p>
+<p>4- The decision of meeting the requirements or not is our absolute
+  decisions. Also, the company may ask for evidence to make participants
+  prove their eligibility.</p>
+
+<p>5- The participants under the age of 18 shall have the agreement of their
+  parent or legal guardian (Also, he shall provide the company with the
+  agreement details in the case of confirmation). The parent or legal
+  guardian shall act on behalf the underage participant in order to complete
+  the competition, legally. Otherwise, the company has the right to
+  exclusive from the competition.</p>
+<p>6- The company shall not accept any underage participant who does not
+  provide us with the necessary legal documents to prove the right
+  authorization by his father or his legal guardian.</p>
+<h4>Responsibility of protecting your account</h4>
+<p>When making account for using the mail, you will be asked for enter the
+  password. It is your responsibility to protect your own passwords. Also,
+  you bear responsibility of every activity and avoiding others from using
+  yours. In addition, any loss resulting from using your passwords by others,
+  you shall compense the company (Techno-sport) for your negligence of
+  protecting your accounts.</p>
+<h4>Forbidden activities on the website</h4>
+<p>The following is a partial list including some kinds of illegal and forbidden
+  behaviors on the website. Techno-sport has the right to run investigation
+  and to take appropriate legal procedures for any guilty person who
+  involved in forbidden activities, as it deemed appropriate. Including, but
+  not limited to:</p>
+<p> All contents of the website including the whole texts of the documents,
+  designing, photos, programs, texts … etc (content in general) which
+  considered as a property of Techno-sport or licensees, as per signed
+  contracts. All the contents are protected under the laws and author’s right
+  as well as the other intellectual property.</p>
+<p> You do not have the right to use rules or the company mail for
+  publishing, distributing any information (including programs or other
+  contents) which is considered illegal. In addition to breach or violate rights
+  or another person, insult other authorities, watch the obscene sites, use
+  sites which have virus or non available by local and international systems.</p>
+
+Page 6 of 9
+<p>Without the company approval, you do not have the right to use the
+  website for the purposes of publishing and distributing any advertisement,
+  sales promotion or any other services.</p>
+<p> Impersonation others identities</p>
+<p> Spread versus or damaging codes</p>
+<p> Gathering information about others without their agreement, including
+  e-mails</p>
+<p> Allowing others to use your own code or password</p>
+<h4>Copyright</h4>
+<p>1- As entering in our competition, all participants shall do the following:</p>
+<p>a) Assignation of all rights (the present and future rights) in entering the
+  media world (including the internet) whether it is going to be established
+  now or in the future.</p>
+<p>b) Agree not to ask for any moral rights considering entering the
+  competitions (whenever and wherever recognized that rights) against the
+  company, the assignors or the licensed by us or our successors in the
+  property.</p>
+<p>c) The participants shall undertake not to breach property rights of the
+  third party by entering our competitions and assure that the competition
+  will not include anything illegal, immoral, hurter or threatened. Also, they
+  shall compense any losses, damages or responsibilities arising because of
+  non-compliance of the above conditions. In the case of doing the job
+  appropriately, we keep our right as being not obliged to (without
+  limitation the matter of undertaking and compense the participant as
+  mentioned above) offer, liquidate or observe the information provided by
+  the participant as well as to amend, reject or remove it.</p>
+<p>d) Confirm their right and power to give the above rights, all necessary
+  agreements and statements in order to gain these rights.</p>
+<p>2- For avoidance of doubt, all the given rights under the name of
+  competition, its property and the competition model shall be considered
+  as our individual property. Consequently, the company may make use of it
+  according to its choice.</p>
+
+
+<h4>Manipulation and other issues</h4>
+<p>If there is no way to execute the competition as planned for any reason
+  (including, but not limited to) technical damages, unacceptable entering,
+  computer or mobile versus, manipulation, fraud or any other reasons out
+  of our hands and control in a manner that negatively affect the
+  administration, safety, justice and transparency of implementation any
+  competition appropriately, we have the right to terminate any comment
+  or amendment considering the competition or abolishing any withdrawal
+  regarding it or the eligibility of any person which causing (directly or
+  indirectly) that problem.</p>
+<h4>Ending the competition</h4>
+<p>1- It is possible to amend the conditions of the competition or ending it at
+  any time according to our choice without bearing any responsibilities
+  towards the competitors or anyone else. In the case of ending the
+  competition, we do not provide any awards or gifts.</p>
+<h4>Final decisions</h4>
+<p>1- There is no discussion or correspondences regarding all our decisions
+  which relating to the competition with any participant or anyone else.</p>
+<p>2- All the absolute results, disputes, issues and fears are handled by the
+  company or by law, if necessary, through taking the deterrent legal
+  procedures.</p>
+<p>3- If the competition requires voting, the results accuracy which published
+  before us will be considered final, abiding and beyond argumentation.</p>
+
+
+<h4>Non implementation of terms and conditions</h4>
+<p>- The company inability to implement any of the above terms and
+  conditions under any circumstances, it shall not give the right to file a
+  claim or to take any procedure by the participant or the winner. Also, it
+  cannot consider as being an assignation of our rights regarding the
+  competition.</p>
+Responsibility exception:
+<p>1- Except as provided in the terms and conditions and to the maximum
+  level allowed by the law, all conditions, undertaking and obligations,
+  explicitly or implicitly, are excluded thereof under the law.</p>
+<p>2- Till the maximum level allowed by law, the company does not bear any
+  responsibilities considering participant or winner regarding the
+  competition, including any costs, expenses, awards, damages or other
+  responsibility provided that nothing in the competition will limit and
+  undermine our responsibility towards the personal injury or death
+  because of our negligence.</p>
+<p>3- If any terms of the general conditions (especially conditions) are
+  considered as illegal, invalid and ineffective, these terms will be isolated
+  from other terms, full and effective.</p>
+<h4>The photographs and video</h4>
+<p>1- If the competition requires putting a photo or short video as a part of
+  the entering experiments and participating of the competition (as
+  mentioned herein “The picture”), there is:</p>
+<p>a) The participant undertakes to be the well known person or obtaining
+  the prior agreement from the well known person by providing his picture
+  to enter the competition.</p>
+<p>b) The participant agrees on the right of the company to publish and
+  announce his picture at any media tools (including, but not limited to the
+  internet) at any time without any restrictions or challenges all over the
+  world but not to the purpose of competition only.</p>
+<p>c) The participant declares agreement on amending his picture according
+  to the company choice.</p>
+
+<p>d) The participant declares our right to use his name, picture as well as his
+  personal information.</p>
+<p>e) The participant agrees on not to take any procedures considering the
+  company, file a claim, demand his rights because of breaching any
+  property or personal rights resulting from using his own picture.</p>
+<p>f) The participant assign of his right on demanding or obtaining a
+  judgment to prevent or restrict our use of his picture.</p>
+<h4>The law:</h4>
+<p>1- The general terms and conditions (or any special conditions) shall be
+  subjected to laws of the Arab Republic of Egypt.
+  Techno-sport is a company for games and electronic sports activities,
+  Egyptian Joint-stock company.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded" data-dismiss="modal">decline</button>
+        <button type="button" class="btn btn-primary rounded">accept the terms</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <script>!function(e,a,t,n,g,c){e.GoogleAnalyticsObject=n,e.ga||(e.ga=function(){(e.ga.q=e.ga.q||[]).push(arguments)}),e.ga.l=+new Date,g=a.createElement(t),c=a.getElementsByTagName(t)[0],g.src="https://www.google-analytics.com/analytics.js",c.parentNode.insertBefore(g,c)}(window,document,"script","ga"),ga("create","UA-XXXXX-X"),ga("send","pageview")</script>
+
+    <script src="scripts/vendor.js"></script>
+    
+    <script src="scripts/plugins.js"></script>
+    
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
